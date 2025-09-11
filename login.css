@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-1: #49bbbd;
+    --color-2: #49bbbd80;
+    --color-3: #0000;
+    --color-4: #DFDCDC;
+    --color-5: #FFFF;
+    --font-: "Poppins", sans-serif;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#father{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    gap: 100px;
+    padding: 30px 20px 20px 20px;
+
+}
+
+#img-div{
+    position: relative;
+}
+
+#img-div img{
+    width: 35rem;
+    height: 40rem;
+}
+
+#img-div h3{
+    font-weight: 600;
+    font-size: 1.6em;
+    position: absolute;
+    z-index: 100;
+    top: 520px;
+    left: 50px;
+    color: var(--color-5);
+    text-shadow: 20px 20px 20px var(--color-3);
+    
+}
+#img-div p{
+    font-weight: 400;
+    font-size: 1em;
+    position: absolute;
+    z-index: 100;
+    top: 560px;
+    left: 50px;
+    color: var(--color-5);
+    text-shadow: 10px 10px 10px var(--color-3);
+}
+
+/*SON-DIV*/
+#son{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    padding-right: 0px;
+    /* gap: 0px; */
+    /* border: solid 2px black; */
+}
+
+#son h5{
+    display: block;
+    justify-self: center;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 60px;
+}
+
+#son nav{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    width: 16rem;
+    margin-top: 20px;
+    padding: 6px;
+    padding-left: 0px;
+    border: solid 1px var(--color-2);
+    border-radius: 100px;
+    background-color: var(--color-2);
+}
+
+#login-span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    width: 7rem;
+    border: solid 1px var(--color-1);
+    border-radius: 100px;
+    background-color: var(--color-1);
+}
+#login{
+    text-decoration: none;
+    text-shadow: 10px 10px 10px var(--color-3);
+    font-weight: 400;
+    font-size: 1em;
+    width: 10rem;
+    color: var(--color-5);
+}
+
+#register-span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#register{
+    text-decoration: none;
+    text-shadow: 10px 10px 10px var(--color-3);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--color-5);
+}
+#son-p{
+    display: block;
+    justify-self: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+/*INPUTS*/
+form{
+    gap: 0px;
+    /* background-color: var(--color-1); */
+}
+
+.input-span{
+    position:relative;
+    /* border: solid 2px; */
+    display: block;
+    justify-self: center;
+    margin-top: 20px;
+}
+#text-label, #password-label{
+    font-weight: 600;
+    font-size: 0.8em;
+}
+#text, #password{
+    display: block;
+    justify-self: center;
+    width: 20rem;
+    padding: 15px 15px 15px 25px;
+    border: solid 2px var(--color-1);
+    border-radius: 100px;
+}
+#eyeslash{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+:hover#eyeslash{
+    cursor: pointer;
+}
+
+
+
+#remember-me-span{
+    position: relative;
+    display: block;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 23rem;
+    /* border: solid 2px; */
+}
+
+#checkbox-span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#remember, #forgot-password{
+    font-weight: 400;
+    font-size: 0.8em;
+}
+#forgot-pass-span{
+    position: absolute;
+    right: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-3);
+}
+#forgot-password{
+    text-decoration: none;
+    color: var(--color-1);
+    
+}
+
+/*LOGIN IN BTN*/
+#login-btn-div{
+    position: relative;
+    display: block;
+    justify-self: center;
+    margin-top: 25px;
+    width: 23rem;
+}
+
+#login-btn{
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    right: 0px;
+    color: var(--color-5);
+    border: solid 1px var(--color-1);
+    border-radius: 100px;
+    width: 12rem;
+    padding: 8px;
+    background-color: var(--color-1);
+}
+
+:hover#login-btn{
+    cursor: pointer;
+    text-shadow: 50px 50px 50px var(--color-3);
+    background-color: var(--color-2);
+    border: solid 1px var(--color-2);
+}

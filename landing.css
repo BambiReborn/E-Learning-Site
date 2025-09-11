@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-1: #49bbbd;
+    --color-2: #49bbbd80;
+    --color-3: #0000;
+    --color-4: #DFDCDC;
+    --color-5: #FFFF;
+    --color-6: #23BDEE;
+    --color-7: #252641;
+    --color-8: #2EBB5E;
+    --color-9: #545567;
+    --color-10: #595959;
+    --color-11: #D8587E;
+    --color-12: #FBECD7;
+    --color-13: #ffffffe3;
+    --color-14: #F88C3D;
+    --color-15: #2F327D;
+    --color-16: #696984;
+    --color-17: #00CBB8;
+    --color-18: #29B9E7;
+    --color-19: #5B72EE;
+    --color-20: #33EFA0;
+    --color-21: #DCE2EE;
+    --color-22: #C9D3E7;
+    --color-23: #545AE8;
+    --color-24: #F48C06;
+    --color-25: #41BE90;
+    --color-26: #5BEB7B;
+    --color-27: #B2C4F0;
+    
+    --font-: "Poppins", sans-serif;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
