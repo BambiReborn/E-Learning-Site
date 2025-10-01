@@ -9,41 +9,41 @@
 </head>
 <body>
     <!--HEADER-->
-    <head>
-        <img src="landing-imgs/logo.jpg" alt="Logo" id="logo">
+    <header>
+        <img src="landing-imgs/Logo.svg" alt="Logo" id="logo">
 
         <nav id="header-nav">
             <span id="nav-links-span">
-                <a href="Home">Home</a>
-                <a href="Courses">Courses</a>
-                <a href="Careers">Careers</a>
-                <a href="Blog">Blog</a>
-                <a href="About">About us</a>
+                <a href="Home" id="home">Home</a>
+                <a href="Courses" id="course">Courses</a>
+                <a href="Careers" id="carrers">Careers</a>
+                <a href="Blog" id="blog">Blog</a>
+                <a href="About" id="about-us">About us</a>
             </span>
 
-            <span>
+            <span id="nav-links-span-btns">
                 <a href="Login" id="login">Login</a>
                 <a href="Sign up" id="signup">Sign up</a>
             </span>
         </nav>
-    </head>
+    </header>
     
     <!--HERO-SECTION-->
     <section id="hero">
         <div id="father">
             <div id="first-son">
                 <h4>
-                    <span id="studying">Studying</span> Online is now much easier.
+                    <span id="studying">Studying</span> Online is now<br> much easier.
                 </h4>
 
-                <p>
+                <p id="first-son-p">
                     TOTC is an interesting platform that will teach<br>you in more an interactive way
                 </p>
 
-                <span>
-                    <a href="join for free">Join for free</a>
-                    <img src="landing-imgs/play-like btn.png" alt="play-btn">
-                    <p>
+                <span id="join-for-free-span">
+                    <a href="join for free" id="join-for-free-a">Join for free</a>
+                    <img src="landing-imgs/play-like btn.png" id="play-like-btn" alt="play-btn">
+                    <p id="watch-this">
                         Watch how it works
                     </p>
                 </span>
@@ -51,11 +51,11 @@
 
             <!--SECOND-SON-->
             <div id="second-son">
-                <img src="landing-imgs/girl hero.jpg" alt="student">
-                <img src="landing-imgs/250k assisted student.png" alt="popups">
-                <img src="landing-imgs/user experiance popup.png" alt="popups">
-                <img src="landing-imgs/red icon.png" alt="popups">
-                <img src="landing-imgs/congratulations.png" alt="popups">
+                <img src="landing-imgs/girl hero.png" id="girl-hero" alt="student">
+                <img src="landing-imgs/250k assisted student.png" id="assisted" alt="popups">
+                <img src="landing-imgs/user experiance popup.png" id="experience" alt="popups">
+                <img src="landing-imgs/red icon.png" id="red-icon" alt="popups">
+                <img src="landing-imgs/congratulations.png" id="congrats" alt="popups">
             </div>
         </div>
     </section>
@@ -63,17 +63,19 @@
     <!--Our success div-->
     <section id="our-success">
         <div id="success-div-1">
-            <h4>
-                Our Success
-            </h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <br>
-                Vitae inventore tempore eveniet iste, est voluptas sit
-            </p>
+            <span id="success-div-span">
+                <h4 id="success-h4">
+                    Our Success
+                </h4>
+                <p id="success-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Vitae inventore tempore eveniet iste, est voluptas sit
+                </p>
+            </span>
 
             <div id="our-success-son">
-                <span>
+                <span class="son-span">
                     <h5>
                         15K+
                     </h5>
@@ -82,7 +84,7 @@
                     </p>
                 </span>
 
-                <span>
+                <span class="son-span">
                     <h5>
                         75%
                     </h5>
@@ -91,7 +93,7 @@
                     </p>
                 </span>
 
-                <span>
+                <span class="son-span">
                     <h5>
                         35
                     </h5>
@@ -100,7 +102,7 @@
                     </p>
                 </span>
 
-                <span>
+                <span class="son-span">
                     <h5>
                         26
                     </h5>
@@ -109,7 +111,7 @@
                     </p>
                 </span>
 
-                <span>
+                <span class="son-span">
                     <h5>
                         16
                     </h5>
@@ -121,10 +123,10 @@
         </div>
 
         <div id="success-div-2">
-            <h5>
-                <span id="all-in-one">All-In-One</span> Cloud Software
+            <h5 id="success-div-2-h5">
+                <span id="all-in-one">All-In-One</span> Cloud Software.
             </h5>
-            <p>
+            <p id="success-div-2-p">
                 TOTC is one powerful online software suite that combines all the tools
                 <br>
                 needed to run a successful school or office.
@@ -189,10 +191,10 @@
     <!--WHAT IS TOTC-->
     <section id="what-is-totc">
         <div id="what-is-totc-div-1">
-            <h4>
+            <h4 id="totc-div-1-h4">
                 What is <span id="totc">TOTC?</span>
             </h4>
-            <p>
+            <p id="totc-div-1-p">
                 TOTC is a platform that allows educators to create online classes whereby they can<br>
                 store the course materials online; manage assignments, quizzes and exams; monitor<br>
                 due dates; grade results and provide students with feedback all in one place.
@@ -201,26 +203,26 @@
 
         <!--PHOTOS' DIV-->
         <div id="photos-father">
-            <div class="totc-photos">
-                <img src="landing-imgs/woman instructor.png" alt="TOTC Instructor">
-                <span>
+            <div class="totc-photos-1">
+                <!-- <img src="landing-imgs/woman instructor.png" id="totc-img-1" alt="TOTC Instructor"> -->
+                <span id="instructors-span">
                     <h4>
                         FOR INSTRUCTORS
                     </h4>
                     <nav>
-                        <a href="#">Start a class today</a>
+                        <a href="#" id="instructor-link">Start a class today</a>
                     </nav>
                 </span>
             </div>
             <!--PHOTO 2-->
-             <div class="totc-photos">
-                <img src="landing-imgs/for students.png" alt="TOTC Student">
-                <span>
+             <div class="totc-photos-2">
+                <!-- <img src="landing-imgs/for students.png" id="totc-img-2" alt="TOTC Student"> -->
+                <span id="students-span">
                     <h4>
                         FOR STUDENTS
                     </h4>
                     <nav>
-                        <a href="#">Enter access code</a>
+                        <a href="#" id="student-link">Enter access code</a>
                     </nav>
                 </span>
             </div>
@@ -239,7 +241,9 @@
                     payments and virtual classrooms all in one secure cloud-<br>
                     based system.
                 </p>
-                <a href="Learn more">Learn more</a>
+                <nav>
+                    <a href="Learn more" id="last-div-div1-a">Learn more</a>
+                </nav>
             </div>
 
             <!--BOXED-LIKE DIV-->
@@ -250,10 +254,10 @@
 
     <!--OUR FEATURES-->
     <section id="our-features">
-        <h4>
-            Our Features
+        <h4 id="features-h4">
+            Our <span id="features">Features</span>
         </h4>
-        <p>
+        <p id="features-p">
             This very extraordinary feature, can make learning activities more efficient.
         </p>
 
@@ -262,9 +266,9 @@
             <div id="motherdiv-1">
                 <div id="imgs-div">
                     <div id="present-call-div">
-                        <img src="landing-imgs/our features img-1.png" alt="#">
+                        <img src="landing-imgs/our features img-1.png" id="features-img1" alt="#">
                         
-                        <span class="img-label">
+                        <span id="img1-label">
                             <i class="fa-solid fa-signal"></i>
                             <span>Instructor</span>
                             <p>
@@ -272,16 +276,17 @@
                             </p>
                         </span>
 
-                        <span id="img-1-btns">
-                            <a href="present"><button>Present</button></a>
-                            <a href="call"><button>Call</button></a>
+                        <span id="img1-btns">
+                            <a href="present"><button id="btn1">Present</button></a>
+                            <a href="call"><button id="btn2">Call</button></a>
                         </span>
                     </div>
 
                     <div id="middle">
-                        <span>
-                            <img src="landing-imgs/our features img-2.png" alt="#">
-                            <span class="img-label">
+                        <span id="middle-span1">
+                            <img src="landing-imgs/our features img-2.png" id=
+                            "middle-img1" alt="#">
+                            <span id="middle-img1-label">
                                 <i class="fa-solid fa-signal"></i>
                                 <p>
                                     Tamara Clarke
@@ -289,9 +294,9 @@
                             </span>
                         </span>
 
-                        <span>
-                            <img src="landing-imgs/our features img-3.png" alt="#">
-                            <span class="img-label">
+                        <span id="middle-span2">
+                            <img src="landing-imgs/our features img-3.png" id="middle-img2" alt="#">
+                            <span id="middle-img2-label">
                                 <i class="fa-solid fa-signal"></i>
                                 <p>
                                     Humbert Holland
@@ -302,8 +307,8 @@
 
                     <div id="last">
                         <span>
-                            <img src="landing-imgs/our features img-4.png" alt="#">
-                            <span class="img-label">
+                            <img src="landing-imgs/our features img-4.png" id="last-img1" alt="#">
+                            <span id="last-img1-label">
                                 <i class="fa-solid fa-signal"></i>
                                 <p>
                                     Adam Levin
@@ -312,8 +317,8 @@
                         </span>
 
                         <span>
-                            <img src="landing-imgs/our features img-5.png" alt="#">
-                            <span class="img-label">
+                            <img src="landing-imgs/our features img-5.png" id="last-img2" alt="#">
+                            <span id="last-img2-label">
                                 <i class="fa-solid fa-signal"></i>
                                 <p>
                                     Patricia Mendoza
@@ -323,15 +328,15 @@
                     </div>
                 </div>
 
-                <div>
+                <div id="user-interface-div">
                     <h4>
                         A <span id="user-interface">user interface</span> designed<br>
                         for te classroom
                     </h4>
 
-                    <span>
+                    <span class="user-interface-div-span">
                         <span>
-                            <i class="fa-solid fa-table-cells"></i>
+                            <i class="fa-solid fa-table-cells" id="interface-icon1"></i>
                         </span>
                         <p>
                             Teachers don't get lost in the grid view<br>
@@ -339,9 +344,9 @@
                         </p>
                     </span>
 
-                    <span>
+                    <span class="user-interface-div-span">
                         <span>
-                            <i class="fa-solid fa-copy"></i>
+                            <i class="fa-solid fa-copy" id="interface-icon2"></i>
                         </span>
                         <p>
                             TA's and presenters can be moved to<br>
@@ -349,9 +354,9 @@
                         </p>
                     </span>
 
-                    <span>
+                    <span class="user-interface-div-span">
                         <span>
-                            <i class="fa-solid fa-users"></i>
+                            <i class="fa-solid fa-users" id="interface-icon3"></i>
                         </span>
                         <p>
                             Teachers can easily see all students<br>
@@ -365,7 +370,7 @@
             <div id="motherdiv-2">
                 <div>
                     <h4>
-                        <span id="tools">Tools</span> For Teachers And Learners
+                        <span id="tools">Tools</span> For Teachers<br> And Learners
                     </h4>
                     <p>
                         Class has a dynamic set of teaching tools built to<br>
@@ -379,7 +384,7 @@
 
             <!--MOTHERDIV-3-->
             <div id="motherdiv-3">
-                <div>
+                <div id="div-italy-card">
                     <div id="italy-card">
                         <p>Question 1</p>
                         <h4>
@@ -396,14 +401,14 @@
                         <p>
                             Your answer was<br>
                             sent successfully
-                        </p>
+                    </p>
                     </div>
                 </div>
 
-                <div>
+                <div id="assessment-div">
                     <h4>
                         Assessments,<br>
-                        <span id="quizzes">Quizzes, Tests</span>
+                        <span id="quizzes">Quizzes</span>,Tests
                     </h4>
                     <p>
                         Easily launch live assignments, quizzes, and<br>
@@ -454,24 +459,24 @@
                                     Patricia Mendoza
                                 </p>
                             </span>
-                            <p>
+                            <p id="end-discussion">
                                 End Discussion
                             </p>
                         </div>
                     </div>
+                </div>
 
-                    <!--SIDE WRITEUP-->
-                    <div>
-                        <h4>
-                            One-on-One<br>
-                            <span id="discussions">Discussions</span>
-                        </h4>
-                        <p>
-                            Teachers and teachers assistants can talk with<br>
-                            students privately without leaving the zoom<br>
-                            environment.
-                        </p>
-                    </div>
+                <!--SIDE WRITEUP-->
+                <div id="writeup-div">
+                    <h4>
+                        One-on-One<br>
+                        <span id="discussions">Discussions</span>
+                    </h4>
+                    <p>
+                        Teachers and teachers assistants can talk with<br>
+                        students privately without leaving the zoom<br>
+                        environment.
+                    </p>
                 </div>
             </div>
 
@@ -485,86 +490,70 @@
     <section id="explore-course">
         <span id="color-bg">
             <div id="explore-father">
-                <h4>
+                <h4 id="explore-h4">
                     Explore Course
                 </h4>
 
-                <p>
+                <p id="explore-p">
                     Lorem Ipsum lorem ipsum, Lorem Ipsum.
                 </p>
 
                 <p id="palette">
-                    <i class="fa-solid fa-palette"></i>
+                    <span>
+                        <i class="fa-solid fa-palette"></i>
+                    </span>
                     Lorem Ipsum
                 </p>
 
                 <!--PARENT-1-->
                 <div id="diagonal-parent-1">
                     <!--ONE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--TWO-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--THREE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--FOUR-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--FIVE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--SIX-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
-                                <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--SEVEN-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
-                                <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <div id="diagonal-label-card-1">
-                        <img src="landing-imgs/explore card-1.png" alt="#">
+                        <img src="landing-imgs/explore card-1.png" class="diagonal-imgs" alt="#">
                     </div>
                 </div>
 
@@ -578,72 +567,54 @@
                 <!--PARENT-2-->
                 <div id="diagonal-parent-2">
                     <!--ONE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--TWO-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--THREE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--FOUR-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--CARD-2-->
                     <div id="diagonal-label-card-2">
-                        <img src="landing-imgs/explore card-2.png" alt="#">
+                        <img src="landing-imgs/explore card-2.png" class="diagonal-imgs" alt="#">
                     </div>
 
                     <!--FIVE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--SIX-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
-                                <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--SEVEN-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
-                                <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
                 </div>
 
 
@@ -656,72 +627,54 @@
                 <!--PARENT-3-->
                 <div id="diagonal-parent-3">
                     <!--ONE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--CARD-3-->
                     <div id="diagonal-label-card-3">
-                        <img src="landing-imgs/explore card-3.png" alt="#">
+                        <img src="landing-imgs/explore card-3.png" class="diagonal-imgs" alt="#">
                     </div>
 
                     <!--TWO-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--THREE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--FOUR-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                     <!--FIVE-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
+                    <span class="diagonal-label-1">
+                        <span class="diagonal-label-2">
+                            <span class="diagonal-label-3">
                                 <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--SIX-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
-                                <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--SEVEN-->
-                    <div class="diagonal-label-1">
-                        <div class="diagonal-label-2">
-                            <div class="diagonal-label-3">
-                                <P>Metatron Metatron</P>
-                            </div>
-                        </div>
-                    </div>
+                            </span>
+                        </span>
+                    </span>
 
                 </div>
             </div>
@@ -733,12 +686,12 @@
         <div id="father-what-they-say">
             <div id="testimonial">
                 <h5>
-                TESTIMONIAL
+                    <span id="line"><i class="fa-solid fa-minus"></i></span>TESTIMONIAL
                 </h5>
                 <h4>
                     What They Say?
                 </h4>
-                <p>
+                <p id="testimonial-p1">
                     TOTC has go more than 100k positive ratings<br>
                     from our users around the world.
                 </p>
