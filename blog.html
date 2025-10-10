@@ -10,7 +10,7 @@
 <body>
     <!--HEADER-->
     <header>
-        <img src="index-imgs/Logo.svg" alt="Logo" id="logo">
+        <img src="blog-imgs/blog logo.svg" alt="Logo" id="logo">
 
         <nav id="header-nav">
             <span id="nav-links-span">
@@ -21,7 +21,7 @@
                 <a href="About" id="about-us">About us</a>
             </span>
 
-            <span id="nav-links-span-btns">
+            <span id="nav-link-span-drop">
                 <img src="blog-imgs/Header photo.png" alt="User">
                 <a href="#">Lina <i class="fa-solid fa-angle-down"></i></a>
             </span>
@@ -29,22 +29,24 @@
     </header>
 
     <!--SECTION-1-->
-    <section id="sectio-1">
+    <section id="section-1">
         <div id="section-1-div">
-            <p id="sectio-1-p1">
-                By Themadbrains in inspiration
+            <p id="section-1-p1">
+                By Themadbrains in <span id="inspiration">inspiration</span>
             </p>
             <h4>
                 Why Swift UI Should Be on the<br>
                 Radar of Every Mobile<br>
                 Developer
             </h4>
-            <p id="sectio-1-p2">
+            <p id="section-1-p2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
                 sed do eiusmod tempos Lorem ipsum dolor sitamet,<br>
                 consectetur adipiscing elit, sed do eiusmod tempor
             </p>
-            <a href="#">Start learning now</a>
+            <nav>
+                <a href="#">Start learning now</a>
+            </nav>
         </div>
 
         <img src="blog-imgs/Swift UI.png" alt="#">
@@ -55,66 +57,98 @@
         <h4>
             Reading blog list
         </h4>
-        <img src="blog-imgs/UIUX.png" alt="#" id="UI/UX-img">
-        <img src="blog-imgs/React.png" alt="#" id="react-img">
-        <img src="blog-imgs/PHP.png" alt="#" id="PHP-img">
-        <img src="blog-imgs/Javascript.png" alt="#" id="javascript-img">
+        <span>
+            <img src="blog-imgs/UIUX.png" alt="#" id="UI/UX-img">
+            <img src="blog-imgs/React.png" alt="#" id="react-img">
+            <img src="blog-imgs/PHP.png" alt="#" id="PHP-img">
+            <img src="blog-imgs/Javascript.png" alt="#" id="javascript-img">
+        </span>
     </div>
 
     <!--SECTION-2-->
     <section id="section-2">
-        <div class="section-2-cards">
-            <img src="blog-imgs/Related blog-1.png" alt="#" class="section-2-imgs">
-            <p id="p1">
-                Class adds $30 million to its balance sheet for a<br>
-                Zoom-friendly edtech solution
+        <span>
+            <p>
+                Related blog
             </p>
+            <nav>
+                <a href="#">See all</a>
+            </nav>
+        </span>
 
-            <a href="#"><img src="blog-imgs/Header photo.png" alt="#"> Lina</a>
-            
-            <p id="p2">
-                Class, launched less than a year ago by Blackboard co-founder<br>
-                Michael Chasen, integrates exclusively...
-            </p>
+        <div id="section-2-div-father">
+            <div class="section-2-cards">
+                <img src="blog-imgs/Related blog-1.png" alt="#" class="section-2-imgs">
+                <p id="p1">
+                    Class adds $30 million to its balance sheet for a<br>
+                    Zoom-friendly edtech solution
+                </p>
 
-            <span>
-                <nav>
-                    <a href="#">Read more</a>
-                </nav>
                 <span>
-                    <i class="fa-solid fa-eye"></i>
-                    <p>251,232</p>
+                    <img src="blog-imgs/Header photo.png" alt="#">
+                    <p>
+                        Lina
+                    </p>
                 </span>
-            </span>
+                
+                <p id="p2">
+                    Class, launched less than a year ago by Blackboard co-founder<br>
+                    Michael Chasen, integrates exclusively...
+                </p>
+
+                <span id="span-2">
+                    <nav>
+                        <a href="#">Read more</a>
+                    </nav>
+                    <span>
+                        <i class="fa-solid fa-eye"></i>
+                        <p>251,232</p>
+                    </span>
+                </span>
+            </div>
+
+            <!--CARD 2-->
+
+            <div class="section-2-cards">
+                <img src="blog-imgs/Related blog-2.png" alt="#" class="section-2-imgs">
+                <p id="p1">
+                    Class adds $30 million to its balance sheet for a<br>
+                    Zoom-friendly edtech solution
+                </p>
+
+                <span>
+                    <img src="blog-imgs/Header photo.png" alt="#">
+                    <p>
+                        Lina
+                    </p>
+                </span>
+                
+                <p id="p2">
+                    Class, launched less than a year ago by Blackboard co-founder<br>
+                    Michael Chasen, integrates exclusively...
+                </p>
+
+                <span id="span-2">
+                    <nav>
+                        <a href="#">Read more</a>
+                    </nav>
+                    <span>
+                        <i class="fa-solid fa-eye"></i>
+                        <p>251,232</p>
+                    </span>
+                </span>
+            </div>
         </div>
-
-        <!--CARD 2-->
-
-        <div class="section-2-cards">
-            <img src="blog-imgs/Swift UI.png" alt="#" class="section-2-imgs">
-            <p id="p1">
-                Class adds $30 million to its balance sheet for a<br>
-                Zoom-friendly edtech solution
-            </p>
-
-            <a href="#"><img src="blog-imgs/Header photo.png" alt="#"> Lina</a>
-            
-            <p id="p2">
-                Class, launched less than a year ago by Blackboard co-founder<br>
-                Michael Chasen, integrates exclusively...
-            </p>
-
-            <span>
-                <nav>
-                    <a href="#">Read more</a>
-                </nav>
-                <span>
-                    <i class="fa-solid fa-eye"></i>
-                    <p>251,232</p>
-                </span>
-            </span>
+        <div id="nav-div">
+            <nav id="nav-1">
+                    <i class="fa-solid fa-angle-left"></i>
+            </nav>
+            <nav id="nav-2">
+                    <i class="fa-solid fa-angle-right"></i>
+            </nav>
         </div>
     </section>
+    
 
     <!--SECTION 3-->
     <section id="section-3">
@@ -127,11 +161,209 @@
             </nav>
         </span>
 
-        <div class="section-3-cards">
-            <img src="blog-imgs/Mkt article-1.png" alt="#" class="mkt-imgs">
-            <i class="fa-solid fa-table-cells-large"></i>
+        <div id="section-3-cards-father">
+            <div class="section-3-cards">
+                <img src="blog-imgs/Mkt article-1.png" alt="#" class="mkt-imgs">
+                <div id="divs-div">
+                    <div id="design">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <p>
+                            Design
+                        </p>
+                    </div>
+
+                    <div id="months-3">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>
+                            3 Months
+                        </p>
+                    </div>
+                </div>
+
+                <h4>
+                    AWS Certified solutions<br>
+                    Architect
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>
+                    consectetur adipising elit, sed do<br>
+                    eiusmod tempor
+                </p>
+
+                <span id="span-3">
+                    <nav>
+                        <a href="#"><img src="blog-imgs/Header photo.png" alt="#"> Lina</a>
+                    </nav>
+                    <span>
+                        <p>$100</p>
+                        <p>$80</p>
+                    </span>
+                </span>
+            </div>
+
+            <!--CARD 2-->
+            <div class="section-3-cards">
+                <img src="blog-imgs/Mkt article-2.png" alt="#" class="mkt-imgs">
+                <div id="divs-div">
+                    <div id="design">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <p>
+                            Design
+                        </p>
+                    </div>
+
+                    <div id="months-3">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>
+                            3 Months
+                        </p>
+                    </div>
+                </div>
+
+                <h4>
+                    AWS Certified solutions<br>
+                    Architect
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>
+                    consectetur adipising elit, sed do<br>
+                    eiusmod tempor
+                </p>
+
+                <span id="span-3">
+                    <nav>
+                        <a href="#"><img src="blog-imgs/Header photo.png" alt="#"> Lina</a>
+                    </nav>
+                    <span>
+                        <p>$100</p>
+                        <p>$80</p>
+                    </span>
+                </span>
+            </div>
+
+            <!--CARD 3-->
+            <div class="section-3-cards">
+                <img src="blog-imgs/Mkt article-3.png" alt="#" class="mkt-imgs">
+                <div id="divs-div">
+                    <div id="design">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <p>
+                            Design
+                        </p>
+                    </div>
+
+                    <div id="months-3">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>
+                            3 Months
+                        </p>
+                    </div>
+                </div>
+
+                <h4>
+                    AWS Certified solutions<br>
+                    Architect
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>
+                    consectetur adipising elit, sed do<br>
+                    eiusmod tempor
+                </p>
+
+                <span id="span-3">
+                    <nav>
+                        <a href="#"><img src="blog-imgs/Header photo.png" alt="#"> Lina</a>
+                    </nav>
+                    <span>
+                        <p>$100</p>
+                        <p>$80</p>
+                    </span>
+                </span>
+            </div>
+
+            <!--CARD 4-->
+            <div class="section-3-cards">
+                <img src="blog-imgs/Mkt article-4.png" alt="#" class="mkt-imgs">
+                <div id="divs-div">
+                    <div id="design">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <p>
+                            Design
+                        </p>
+                    </div>
+
+                    <div id="months-3">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>
+                            3 Months
+                        </p>
+                    </div>
+                </div>
+
+                <h4>
+                    AWS Certified solutions<br>
+                    Architect
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>
+                    consectetur adipising elit, sed do<br>
+                    eiusmod tempor
+                </p>
+
+                <span id="span-3">
+                    <nav>
+                        <a href="#"><img src="blog-imgs/Header photo.png" alt="#"> Lina</a>
+                    </nav>
+                    <span>
+                        <p>$100</p>
+                        <p>$80</p>
+                    </span>
+                </span>
+            </div>
         </div>
     </section>
+
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-div">
+            <img src="blog-imgs/Logo.svg" alt="Logo">
+            <h3>
+                |
+            </h3>
+            <h4>
+                Virtual Class<br>
+                for Zoom
+            </h4>
+        </div>
+
+        <h4 id="subscribe-h4">
+            subscribe to get our Newsletter
+        </h4>
+
+        <div id="subscribe-div">
+            <form>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <button type="submit" id="email-btn">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+
+        <span id="carrers-span-father">
+            <span id="carrers-span">
+                <a href="#">Carrers</a>
+                <h4>|</h4>
+                <a href="#">Privacy Policy</a>
+                <h4>|</h4>
+                <a href="#">Terms & Conditions</a>
+            </span>
+            <span id="copyright">
+                &copy; 2021 Class Technologies Inc.<br>
+                Personal Project || Bambi 🦅
+            </span>
+        </span>
+    </footer>
 
 </body>
 </html>
